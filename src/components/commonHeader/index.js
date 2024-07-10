@@ -1,4 +1,4 @@
-import React, { useDebugValue } from "react";
+import React  from "react";
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
@@ -21,17 +21,17 @@ const CommonHeader = ({ collapsed }) => {
         {
             key: '1',
             label: (
-                <a target="_blank" rel="noopener noreferrer">
+                <p target="_blank" rel="noopener noreferrer">
                     个人中心
-                </a>
+                </p>
             ),
         },
         {
             key: '2',
             label: (
-                <a onClick={() => logout} target="_blank" rel="noopener noreferrer">
+                <p onClick={() => logout} target="_blank" rel="noopener noreferrer">
                     退出
-                </a>
+                </p>
             ),
 
         },
@@ -51,7 +51,7 @@ const CommonHeader = ({ collapsed }) => {
             })} */}
             <Button
                 type="text"
-                icon={<MenuFoldOutlined />}
+                icon={!collapsed?<MenuFoldOutlined />:<MenuUnfoldOutlined/>}
                 style={{
                     fontSize: '16px',
                     width: 64,
