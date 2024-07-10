@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Simple Admin Dashboard by React App
+
+SimpleAdminDashboard is a lightweight admin dashboard framework built with React. It offers basic authentication features, including a login page, home page, and user management page. Users can build upon this framework to meet specific business needs.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Authentication**: Simple user login functionality ensures that only authorized users can access the dashboard.
+- **Home Page**: Displays an overview of the system and statistics.
+- **User Management**: Manage user information, supporting operations such as adding, editing, and deleting users.
+- **Extensibility**: Easily expandable and customizable, allowing for the addition of more features as needed.
+
+## Tech Stack
+
+- **Frontend**: React, Redux
+- **Styling**: CSS, Antd
 
 ## Available Scripts
 
