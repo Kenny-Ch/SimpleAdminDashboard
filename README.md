@@ -4,6 +4,10 @@ SimpleAdminDashboard is a lightweight admin dashboard framework built with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://github.com/Kenny-Ch/SimpleAdminDashboard/assets/54130213/25a517fb-9f81-477d-bc1b-9379757c89df)
+![image](https://github.com/Kenny-Ch/SimpleAdminDashboard/assets/54130213/ccdbb13d-8cfe-4980-90bd-ba3938b0ec3f)
+
+
 ## Features
 
 - **Authentication**: Simple user login functionality ensures that only authorized users can access the dashboard.
